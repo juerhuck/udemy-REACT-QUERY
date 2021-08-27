@@ -16,7 +16,7 @@ async function getUserAppointments(
   });
   return data.appointments;
 }
-
+// TEST
 export function useUserAppointments(): Appointment[] {
   const { user } = useUser();
 
